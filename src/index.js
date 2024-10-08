@@ -6,6 +6,7 @@ import cookieParser from "cookie-parser";
 import { __dirname } from "./path.js";
 import { initMongoDB } from "./db/connection_mongodb.js";
 import MainRouter from "./routes/main.js";
+import { errorHandler } from "./middlewares/error_handler.js";
 
 //Instance of MainRouter
 const mainRouter = new MainRouter();
@@ -24,6 +25,9 @@ app.use(cookieParser());
 
 //routes
 app.use("/", mainRouter.getRouter());
+
+//manage errors
+app.use(errorHandler);
 
 //server
 app.listen(PORT, () => {

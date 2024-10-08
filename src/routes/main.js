@@ -2,7 +2,7 @@
 import { Router } from "express";
 
 //Local imports
-import guestsRouter from "./guest.js";
+import guestsRouter from "./guest_router.js";
 
 export default class MainRouter {
     constructor() {
