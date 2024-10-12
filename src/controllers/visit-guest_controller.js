@@ -12,7 +12,7 @@ export default class VisitGuestController {
       const response = await visitGuestService.getCodeAlarm(number);
       if (!response)
         return res.json({ msg: "Guest does not have a current accommodation" });
-      return res.json(response);
+      return res.json({ visit: response });
     } catch (error) {
       next(error);
     }

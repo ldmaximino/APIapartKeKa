@@ -296,3 +296,14 @@
     at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
     at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 19:43:20 | error RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: Code Alarm:
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.writeHead (node:_http_server:347:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:915:9)
+    at ServerResponse.end (node:_http_outgoing:1026:5)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:162:21)
+    at getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:15:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
