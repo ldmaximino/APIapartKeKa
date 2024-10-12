@@ -1,0 +1,298 @@
+| [31merror[39m | 08-10-2024 21:37:47 | error Error: Error: CastError: Cast to ObjectId failed for value "21651004" (type string) at path "nro_doc" for model "visit"
+    at GuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:10:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:12:24) |
+| [31merror[39m | 08-10-2024 21:40:07 | error Error: Error: CastError: Cast to ObjectId failed for value "21651004" (type number) at path "nro_doc" for model "visit"
+    at GuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:10:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:12:24) |
+| [31merror[39m | 08-10-2024 21:40:51 | error Error: Error: CastError: Cast to ObjectId failed for value "21651004" (type number) at path "nro_doc" for model "visit"
+    at GuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:10:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:12:24) |
+| [31merror[39m | 08-10-2024 21:41:52 | error Error: Error: CastError: Cast to ObjectId failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at GuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:10:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:12:24) |
+| [31merror[39m | 08-10-2024 22:41:36 | error Error: TypeError: response.dateIN.tolocaleString is not a function
+    at GuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:13:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:12:24) |
+| [31merror[39m | 08-10-2024 22:49:01 | error TypeError: Cannot read properties of null (reading 'codeAlarm')
+    at getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:13:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 09-10-2024 20:35:34 | error Error: Error: MongoServerError: E11000 duplicate key error collection: APIapartKeKa.guests index: nro_doc_1 dup key: { nro_doc: 21651004 }
+    at GuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:24:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:22:24) |
+| [31merror[39m | 09-10-2024 20:35:37 | error Error: Error: MongoServerError: E11000 duplicate key error collection: APIapartKeKa.guests index: nro_doc_1 dup key: { nro_doc: 21651004 }
+    at GuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:24:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:22:24) |
+| [31merror[39m | 09-10-2024 20:44:18 | error Error: ReferenceError: GuestModel is not defined
+    at GuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:26:13)
+    at createGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:20:43)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:175:3) |
+| [31merror[39m | 09-10-2024 20:45:37 | error Error: Error: MongoServerError: E11000 duplicate key error collection: APIapartKeKa.guests index: nro_doc_1 dup key: { nro_doc: 21651004 }
+    at GuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:26:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:20:24) |
+| [31merror[39m | 09-10-2024 20:46:01 | error Error: Error: CastError: Cast to ObjectId failed for value "21651004" (type number) at path "nro_doc" for model "visit"
+    at GuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:26:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:20:24) |
+| [31merror[39m | 09-10-2024 20:56:47 | error Error: ReferenceError: guestDao is not defined
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:16:13)
+    at getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:10:48)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\router\index.js:175:3) |
+| [31merror[39m | 09-10-2024 20:57:23 | error Error: Error: ReferenceError: GuestModel is not defined
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:16:13)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:10:24) |
+| [31merror[39m | 09-10-2024 20:58:07 | error Error: Error: CastError: Cast to ObjectId failed for value "21651004" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:10:24) |
+| [31merror[39m | 09-10-2024 20:58:24 | error Error: TypeError: Cannot read properties of null (reading 'dateOut')
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:10:24) |
+| [31merror[39m | 09-10-2024 21:09:34 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "guest"
+    at GuestService.update (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:21:27) |
+| [31merror[39m | 09-10-2024 21:10:22 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "guest"
+    at GuestService.update (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:22:27) |
+| [31merror[39m | 09-10-2024 21:12:20 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "guest"
+    at GuestService.update (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:22:27) |
+| [31merror[39m | 09-10-2024 21:14:05 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "guest"
+    at GuestService.update (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/guest_service.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/guest_controller.js:22:27) |
+| [31merror[39m | 11-10-2024 17:36:24 | error Error: Error: ValidationError: nro_doc: Cast to ObjectId failed for value "22400706" (type number) at path "nro_doc" because of "BSONError"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:24:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:29:24) |
+| [31merror[39m | 11-10-2024 17:43:18 | error ReferenceError: objvisit is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:28:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 17:44:00 | error Error: Error: ValidationError: nro_doc: Cast to ObjectId failed for value "22400706" (type number) at path "nro_doc" because of "BSONError"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:24:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:29:24) |
+| [31merror[39m | 11-10-2024 18:18:53 | error TypeError: visitGuestService.getAll is not a function
+    at getVisitsByGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:44:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:19:30 | error Error: TypeError: visitGuestDao.getAll is not a function
+    at VisitGuestService.getVisitsByGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:32:13)
+    at getVisitsByGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:44:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:19:50 | error Error: Error: TypeError: Cannot read properties of undefined (reading 'find')
+    at VisitGuestService.getVisitsByGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:32:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getVisitsByGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:44:22) |
+| [31merror[39m | 11-10-2024 18:23:36 | error RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: {
+  _id: new ObjectId('67093e888ccc3ae0ea48fd16'),
+  first_name: 'Sandra',
+  last_name: 'Mondino',
+  nro_doc: 22400706,
+  __v: 0
+}
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.writeHead (node:_http_server:347:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:915:9)
+    at ServerResponse.end (node:_http_outgoing:1026:5)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at getVisitsByGuest (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:45:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:24:29 | error SyntaxError: Unexpected string in JSON at position 56
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) |
+| [31merror[39m | 11-10-2024 18:50:53 | error TypeError: Cannot read properties of undefined (reading 'checkDateOverlap')
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:36:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:51:28 | error ReferenceError: checkDateOverlap is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:36:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:52:21 | error ReferenceError: checkDateOverlap is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:36:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:53:25 | error ReferenceError: checkDateOverlap is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:36:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:54:12 | error ReferenceError: checkDateOverlap is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:50:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:54:53 | error ReferenceError: checkDateOverlap is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:53:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 18:55:22 | error TypeError: Cannot read properties of undefined (reading 'checkDateOverlap')
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:53:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:02:06 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:40:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:03:51 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:40:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:03:59 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:40:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:26:36 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:42:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:27:21 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:42:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:27:49 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:42:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:28:47 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:42:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 11-10-2024 19:29:59 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:02:30 | error Error: TypeError: Cannot read properties of null (reading 'dateOut')
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/services/visit-guest_service.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:12:24) |
+| [31merror[39m | 12-10-2024 18:31:00 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:31:11 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:31:19 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:31:35 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:31:42 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:31:55 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:32:50 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:34:41 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 12-10-2024 18:47:30 | error Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:278:15)
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:43:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |

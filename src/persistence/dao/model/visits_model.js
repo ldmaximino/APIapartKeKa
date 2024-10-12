@@ -4,12 +4,11 @@ export const visitCollection = "visit";
 
 const VisitSchema = new Schema({
     nro_doc: { 
-        type: Schema.Types.ObjectId, 
-        ref: 'Guest', // referencia al modelo 'Guest'
-        required: true 
+        type: Number, 
+        required: true, 
     },
     codeAlarm: {
-        type: String,
+        type: Number,
         required: true,
     },
     dateIN: {

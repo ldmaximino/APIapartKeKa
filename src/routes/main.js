@@ -3,6 +3,7 @@ import { Router } from "express";
 
 //Local imports
 import guestsRouter from "./guest_router.js";
+import visitGuestRouter from "./visit-guest_router.js";
 
 export default class MainRouter {
     constructor() {
@@ -12,6 +13,7 @@ export default class MainRouter {
 
     init() {
         this.router.use("/api/guest", guestsRouter);
+        this.router.use("/api/visit", visitGuestRouter);
     }
 
     getRouter() {

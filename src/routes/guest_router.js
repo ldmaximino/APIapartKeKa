@@ -7,7 +7,8 @@ import GuestController from "../controllers/guest_controller.js";
 const guestController = new GuestController();
 const router = Router();
 
-//Get Code Alarm
-router.get("/getalarm", guestController.getCodeAlarm);
+router.post("/", guestController.createGuest);
+router.put("/:id", guestController.updateGuest);
+router.get("/:id", guestController.getByNroDoc);
 
 export default router;
