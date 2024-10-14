@@ -1,6 +1,7 @@
 //Third party imports
 import express, { urlencoded } from "express";
 import cookieParser from "cookie-parser";
+import cors from 'cors';
 
 //Local imports
 import { __dirname } from "./path.js";
@@ -22,6 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 app.use(cookieParser());
+app.use(cors());
 
 //routes
 app.use("/", mainRouter.getRouter());
