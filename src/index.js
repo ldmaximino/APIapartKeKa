@@ -8,6 +8,7 @@ import { __dirname } from "./path.js";
 import { initMongoDB } from "./db/connection_mongodb.js";
 import MainRouter from "./routes/main.js";
 import { errorHandler } from "./middlewares/error_handler.js";
+import { CORSORIGIN } from './config/config.js';
 
 //Instance of MainRouter
 const mainRouter = new MainRouter();
@@ -23,13 +24,20 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 app.use(cookieParser());
-app.use(cors());
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://apartkeka.netlify.app");
-  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
-  res.header("Access-Control-Allow-Headers", "Content-Type");
-  next();
-});
+
+const allowedOrigins = CORSORIGIN;
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (allowedOrigins.includes(origin) || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  methods: "GET, POST, PUT, DELETE",
+  allowedHeaders: "Content-Type"
+};
+app.use(cors(corsOptions));
 
 //routes
 app.use("/", mainRouter.getRouter());
