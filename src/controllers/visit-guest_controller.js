@@ -11,7 +11,7 @@ export default class VisitGuestController {
       const { number } = req.query;
       const response = await visitGuestService.getCodeAlarm(number);
       if (!response)
-        return res.json({ msg: "Guest does not have a current accommodation" });
+        return res.status(404).json({ code: "404", msg: "Guest does not have a current accommodation" });
       return res.json(response );
     } catch (error) {
       next(error);

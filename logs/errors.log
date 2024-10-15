@@ -307,3 +307,27 @@
     at ServerResponse.send (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\node_modules\express\lib\response.js:162:21)
     at getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/src/controllers/visit-guest_controller.js:15:18)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 15-10-2024 00:59:33 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:12:24) |
+| [31merror[39m | 15-10-2024 00:59:33 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:12:24) |
+| [31merror[39m | 15-10-2024 01:03:12 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:12:24) |
+| [31merror[39m | 15-10-2024 01:03:12 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:12:24) |
+| [31merror[39m | 15-10-2024 01:03:22 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:12:24) |
+| [31merror[39m | 15-10-2024 01:03:22 | error Error: Error: CastError: Cast to Number failed for value "NaN" (type number) at path "nro_doc" for model "visit"
+    at VisitGuestService.getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCodeAlarm (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:12:24) |
