@@ -25,7 +25,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(cookieParser());
 app.use(cors());
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://apartkeka.netlify.app/");
+  res.header("Access-Control-Allow-Origin", "https://apartkeka.netlify.app");
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
   res.header("Access-Control-Allow-Headers", "Content-Type");
   next();
